@@ -1,0 +1,144 @@
+body {
+    color: white;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+  }
+  
+  form {
+    width: 90%;
+  }
+  
+  form input {
+    height: 48px;
+    background-color: rgb(194, 191, 191);
+    color: white;
+    font-size: 32px;
+    width: 90%;
+  }
+  
+  input::-webkit-input-placeholder {
+    color: white;
+  }
+  
+  input:-ms-input-placeholder {
+    color: white;
+  }
+  
+  input::-ms-input-placeholder {
+    color: white;
+  }
+  
+  input::placeholder {
+    color: white;
+  }
+  
+  table tr td {
+    color: white;
+    font-size: 32px;
+  }
+  
+  .contenedor {
+    background-color: black;
+    width: 70%;
+    margin: 200px auto 0 auto;
+    border-radius: 10px;
+    font-family: helvetica;
+  }
+  
+  .header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+  }
+  
+  .header h1 {
+    width: 90%;
+  }
+  
+  .header span {
+    width: 10%;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 32px;
+    text-align: center;
+    border: collapse;
+    width: 32px;
+    height: 32px;
+  }
+  
+  #add {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 20px;
+    font-size: 32px;
+    height: 52.8px;
+  }
+  
+  #add > button {
+    width: 20%;
+    cursor: pointer;
+    border: 0;
+    color: white;
+    background-color: grey;
+    margin-left: 20px;
+    padding: 10px;
+  }
+  
+  .contenedor > h1 {
+    text-align: center;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  tr {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    background-color: grey;
+    margin-top: 16px;
+  }
+  
+  td {
+    padding: 8px;
+  }
+  
+  .completado {
+    text-decoration: line-through;
+  }
+  
+  span {
+    width: 32px;
+    height: 32px;
+    padding: 10px;
+  }
+  
+  span:hover {
+    cursor: pointer;
+    background-color: white;
+    color: black;
+  }
+  
+
+  
+  .fallo {
+    background-color: red;
+    color: white;
+    height: 30px;
+    font-size: 20px;
+    line-height: 30px;
+    -webkit-animation: slide-up 1s ease;
+            animation: slide-up 1s ease;
+  }
+  
+  #chk {
+    cursor: pointer;
+  }
